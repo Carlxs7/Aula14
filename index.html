@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adivinhe o Número 🎲</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>DevCarlxs Bets 🎲</title>
 
 </head>
+
 <body>
 
     <div class="content">
-        <h1>Descobrir o número de 0 a 100</h1>
-        <input type="number" id="bet" placeholder="Digite um número">
-        <button onclick="verifyNumber()">Enviar</button>
+        <div class="logo">DevCarlxs Bets 🎲</div>
+        
+        <h1>Adivinhe o Número Secreto</h1>
+        <p class="subtitle">De 0 a 10</p>
+        
+        <div class="input-group">
+            <input type="number" id="bet" placeholder="Sua aposta" min="0" max="10">
+            <button onclick="verifyNumber()">Apostar</button>
+        </div>
     </div>
 
 </body>
 <script src="script.js"></script>
+
 </html>
