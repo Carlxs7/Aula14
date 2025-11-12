@@ -13,8 +13,8 @@ function verifyNumber() {
 
     var bet = document.getElementById("bet").value;
 
-    if (bet > 100 || bet < 1) {
-        alert('Aposta inválida!');
+    if (bet > 10 || bet < 1) {
+        alert('❌Aposta inválida!');
         return;
     }
 
